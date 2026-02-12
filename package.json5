@@ -1,0 +1,34 @@
+{
+  name: "purple-queen-hypothesis",
+  displayName: "Purple Queen Hypothesis",
+  description: "A dark, retro theme for vscode",
+  version: "0.1",
+  icon:"",
+  galleryBanner: {
+    color: "#191925",
+    theme: "dark"
+  },
+  publisher: "kashmiraQeel",
+  author: {
+    name: "Kile Kasmir",
+    url: "",
+    email: "kile.asmussen@gmai.com",
+  },
+  repository: {
+    url: ""
+  },
+  engines: {
+    vscode: "^1"
+  },
+  categories: [ "Themes" ],
+  contributes: {
+    themes: [
+      {
+        label: "Purple Queen Hypothesis",
+        uiTHeme: "vs-dark",
+        path: ""
+      }
+    ]
+  }
+
+}
