@@ -1,0 +1,10 @@
+{
+  name: "Purple Queen Hypothesis",
+  type: "dark",
+  colors: {
+
+  },
+  tokenColors: [
+
+  ]
+}

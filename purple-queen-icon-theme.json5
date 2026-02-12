@@ -58,14 +58,14 @@
   file: "_file_dark",
   fileExtensions: {
     js: "_code_dark",
+    
     css: "_hash_dark",
     scss: "_hash_dark",
-    html: "_html_dark",
-    xml: "_html_dark",
+
     png: "_image_dark",
     svg: "_image_dark",
-    jpg: "_image_dark",
-    jpeg: "_image_dark",
+    jpg: "_camera_dark",
+    jpeg: "_camera_dark",
     pdf: "_prettier_dark",
 
     graphql: "_database_dark",
@@ -87,7 +87,7 @@
     // XML-like
     html: "_html_dark",
     xml: "_html_dark",
-    css: "_code_dark",
+    css: "_hash_dark",
 
     // Functional languages
     clojure: "_code_dark",
@@ -99,8 +99,9 @@
     ini: "_settings_dark",
     yaml: "_settings_dark"
     makefile: "_settings_dark",
-    json: "_settings_dark",
-    json5: "_settings_dark",
+    nix: "_settings_dark",
+    json: "_code_dark",
+    json5: "_code_dark",
 
     // Database
     sql: "_database_dark",
@@ -138,6 +139,7 @@
     // Packages
     "package.json": "_package_dark",
     "Cargo.toml": "_package_dark",
+    "flake.nix": "_package_dark",
     "Dockerfile": "_package_dark",
 
     // Prettier
