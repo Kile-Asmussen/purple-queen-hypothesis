@@ -3,6 +3,7 @@
   displayName: "Purple Queen Hypothesis",
   description: "A dark, retro theme for vscode",
   version: "0.1",
+  license: "MIT"
   icon:"",
   galleryBanner: {
     color: "#191925",
@@ -21,14 +22,27 @@
     vscode: "^1"
   },
   categories: [ "Themes" ],
+  keywords: [
+    "icons",
+    "icon",
+    "theme",
+    "colorful",
+    "gradient"
+  ],
   contributes: {
     themes: [
       {
-        label: "Purple Queen Hypothesis",
+        label: "Purple Queen Hypothesis (Theme)",
         uiTHeme: "vs-dark",
         path: ""
       }
+    ],
+    iconThemes: [
+      {
+        id: ""
+        label: "Purple Queen Hypothesis (Icons)"
+        path:
+      }
     ]
   }
-
 }
