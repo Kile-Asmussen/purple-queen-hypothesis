@@ -1,0 +1,292 @@
+{
+  // Reference: https://code.visualstudio.com/api/references/theme-color
+
+  // Contrast colors
+  contrastActiveBorder: "#000000",
+  contrastBorder: "#ffffff",
+
+  // Base colors
+  focusBorder: "",
+  foreground: "",
+  disabledForeground: "",
+  widget: {
+    border: "",
+    shadow: "",
+  },
+  selection: {
+    background: "",
+  },
+  descriptionForeground: "",
+  errorForeground: "",
+  icon: {
+    foreground: "",
+  },
+  sash: {
+    hoverBorder: "",
+  },
+
+  // Window border
+  window: {
+    activeBorder: "",
+    inactiveBorder: "",
+  },
+
+  // Text colors
+  textBlockQuote: {
+    background: "",
+    border: "",
+  },
+  textCodeBlock: {
+    background: "",
+  },
+  textLink: {
+    activeForeground: "",
+    foreground: "",
+  },
+  textPreformat: {
+    foreground: "",
+    background: "",
+    border: "",
+  },
+  textSeparator: {
+    foreground: "",
+  },
+
+  // Action colors
+  toolbar: {
+    hoverBackground: "",
+    hoverOutline: "",
+    activeBackground: "",
+  },
+  editorActionList: {
+    background: "",
+    foreground: "",
+    focusForeground: "",
+    focusBackground: "",
+  },
+
+  // Button control
+  button: {
+    background: "",
+    foreground: "",
+    border: "",
+    separator: "",
+    hoverBackground: "",
+    secondaryForeground: "",
+    secondaryBackground: "",
+    secondaryHoverBackground: "",
+    secondaryBorder: "",
+  },
+  checkbox: {
+    background: "",
+    foreground: "",
+    disabled: {
+      background: "",
+      foreground: "",
+    }
+    border: "",
+    selectBackground: "",
+    selectBorder: "",
+  },
+  radio: {
+    activeForeground: "",
+    activeBackground: "",
+    activeBorder: "",
+    inactiveForeground: "",
+    inactiveBackground: "",
+    inactiveBorder: "",
+    inactiveHoverBackground: "",
+  },
+
+  // Dropdown controls
+  input: {
+    background: "",
+    foreground: "",
+    border: "",
+    placeholderForeground: "",
+  },
+  inputOption: {
+    activeForeground: "",
+    activeBackground: "",
+    activeBorder: "",
+    hoverBackground: "",
+  },
+  inputValidation: {
+    infoBackground: "",
+    infoForeground: "",
+    infoBorder: "",
+    errorBackground: "",
+    errorForeground: "",
+    errorBorder: "",
+    warningBackground: "",
+    warningForeground: "",
+    warningBorder: "",
+  },
+
+  // Scrollbar control
+  scrollbar: {
+    background: "",
+    shadow: "",
+  },
+  scrollbarSlider: {
+    activeBackground: "",
+    background: "",
+    hoverBackground: "",
+  },
+
+  // Badge
+  badge: {
+    background: "",
+    foreground: "",
+  },
+
+  // Progress bar
+  progressBar: {
+    background: "",
+  },
+
+  // Lists and trees
+  list: {
+    activeSelectionBackground: "",
+    activeSelectionForeground: "",
+    activeSelectionIconForeground: "",
+    dropBackground: "",
+    focusBackground: "",
+    focusForeground: "",
+    focusHighlightForeground: "",
+    focusOutline: "",
+    focusAndSelectionOutline: "",
+    highlightForeground: "",
+    hoverBackground: "",
+    hoverForeground: "",
+    inactiveSelectionBackground: "",
+    inactiveSelectionForeground: "",
+    inactiveSelectionIconForeground: "",
+    inactiveFocusBackground: "",
+    inactiveFocusOutline: "",
+    invalidItemForeground: "",
+    errorForeground: "",
+    warningForeground: "",
+    filterMatchBackground: "",
+    filterMatchBorder: "",
+    deemphasizedForeground: "",
+    dropBetweenBackground: "",
+  },
+  listFilterWidget: {
+    background: "",
+    outline: "",
+    noMatchesOutline: "",
+    shadow: "",
+  },
+  tree: {
+    indentGuidesStroke: "",
+    inactiveIndentGuidesStroke: "",
+    tableColumnsBorder: "",
+    tableOddRowsBackground: "",
+  }
+
+  activityBar: {
+    background: "#150621",
+    dropBorder: "",
+    foreground: "#ffffffcc",
+    inactiveForeground: "",
+    border: "#2c0d46",
+    activeBorder: "#fc28a8",
+    activeBackground: "",
+    activeFocusBorder: "#03edf9",
+    dropBackground: "#34294f66",
+  },
+  activityBarBadge: {
+    background: "#8a2dc0",
+    foreground: "#ffffff",
+  },
+  activityBarTop: {
+    foreground: "",
+    activeBorder: "",
+    inactiveForeground: "",
+    dropBorder: "",
+    background: "",
+    activeBackground: ""
+  },
+  activityWarningBadge: {
+    background: "#8a2dc0",
+    foreground: "#ffffff",
+  },
+  activityErrorBadge: {
+    background: "#8a2dc0",
+    foreground: "#ffffff",
+  },
+
+  // Profiles
+  profileBadge: {
+    background: "#8a2dc0",
+    foreground: "#ffffff",
+    sashBorder: "",
+  },
+
+  // Side Bar
+  sideBar: {
+    background: "",
+    foreground: "",
+    border: ""
+    dropBackground: "",
+  },
+  sideBarTitle: {
+    border: "",
+    background: "",
+    foreground: "",
+  },
+  sideBarSectionHeader: {
+    background: "",
+    foreground: "",
+    border: "",
+  },
+  sideBarActivityBarTop: {
+    border: "",
+  },
+  sideBarStickyScroll: {
+    background: "",
+    border: "",
+    shadow: "",
+  },
+
+  // Minimap
+  minimap: {
+    findMatchHighlight: "",
+    selectionHighlight: "",
+    selectionOccurrenceHighlight: "",
+    infoHighlight: "",
+    errorHighlight: "",
+    warningHighlight: "",
+    background: "",
+    foregroundOpacity: "",
+    chatEditHighlight: "",
+  },
+  minimapSlider: {
+    background: "",
+    hoverBackground: "",
+    activeBackground: "",
+
+  },
+  minimapGutter: {
+    addedBackground: "",
+    modifiedBackground: "",
+    deletedBackground: "",
+  },
+  editorMinimap: {
+    inlineChatInserted: "",
+  },
+
+  // Editor Groups & Tabs
+
+
+
+
+
+
+
+
+
+
+
+}

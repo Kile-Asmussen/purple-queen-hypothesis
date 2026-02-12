@@ -1,0 +1,21 @@
+[
+  {
+    name: "Comment",
+    scope: "comment",
+    settings: {
+      foreground: "cyan",
+      fontStyle: "italic",
+    }
+  },
+  {
+    name: "String",
+    scope: [
+      "string.quoted",
+      "string.template",
+      "punctuation.definition.string"
+    ],
+    settings: {
+      foreground: "orange,99",
+    }
+  }
+]
