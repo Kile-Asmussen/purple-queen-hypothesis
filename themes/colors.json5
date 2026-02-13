@@ -274,7 +274,7 @@
     deletedBackground: "",
   },
   editorMinimap: {
-    inlineChatInserted: "",
+    inlineChatInserted: "cyan",
   },
 
   // Editor Groups & Tabs

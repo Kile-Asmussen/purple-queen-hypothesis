@@ -1,0 +1,1 @@
+. + { colors: $colors[0], tokenColors: $tokenColors[0] }

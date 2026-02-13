@@ -1,6 +1,4 @@
 {
   name: "Purple Queen Hypothesis",
   type: "dark",
-  colors: null,
-  tokenColors: null
 }

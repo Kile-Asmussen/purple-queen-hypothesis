@@ -1,2 +1,3 @@
 .direnv
-theme/*.json
+themes/*.json
+!themes/theme.json
