@@ -2,6 +2,7 @@
     "words": [
         "Avant",
         "Eliver",
+        "env",
         "fixjson",
         "Fluoromachine",
         "Kashmira",
@@ -13,6 +14,7 @@
         "pkgs",
         "Qeel",
         "Robb",
-        "typst"
+        "typst",
+        "usr"
     ]
 }
