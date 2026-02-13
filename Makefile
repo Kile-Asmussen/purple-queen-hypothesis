@@ -1,29 +1,13 @@
 
-all: ./themes/theme.json cssColors.css
-	cp theme.json purple-queen-hypothesis.json
-	
-clean:
-	rm theme.json
-	rm names.json
-	rm colors.json
-	rm tokenColors.json
-	rm cssColors.css
+all: package.json purple-queen-hypothesis-icons.json purple-queen-hypothesis-theme.json
 
-theme.json: names.json colors.json tokenColors.json theme.json5 theme.jq
-	cd themes
-	fixjson theme.json5 | jq -f theme.jq --slurpfile colors colors.json --slurpfile tokenColors tokenColors.json > theme.json
+package.json: package.json5
+	fixjson package.json5 > package.json
 
-colors.json: names.json unnest.jq mapNames.jq
-	cd themes
-	fixjson colors.json5 | jq -f unnest.jq | jq -f mapNames.jq --slurpfile names names.json > colors.json
+purple-queen-hypothesis-icons.json: iconPack.json5
+	fixjson iconPack.json5 > purple-queen-hypothesis-icons.json
 
-tokenColors.json: names.json tokenColors.json5 mapNames.jq
-	cd themes
-	fixjson tokenColors.json5 | jq -f mapNames.jq --slurpfile names names.json > tokenColors.json
-
-names.json: names.json5
-	cd themes
-	fixjson names.json5 > names.json
-
-cssColors.css: names.json cssColors.jq
-	jq --raw-output -f cssColors.jq names.json > cssColors.css
+purple-queen-hypothesis-theme.json:
+	cd theme
+	make theme.json
+	cp theme.json

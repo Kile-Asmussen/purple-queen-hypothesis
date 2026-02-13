@@ -1,0 +1,136 @@
+{
+  "hidesExplorerArrows": true,
+  "iconDefinitions": {
+    "_folder": {
+      "iconPath": "./icons/folder_dark.svg"
+    },
+    "_folder_open": {
+      "iconPath": "./icons/folder-open_dark.svg"
+    },
+    "_file": {
+      "iconPath": "./icons/file_dark.svg"
+    },
+    "_settings": {
+      "iconPath": "./icons/settings_dark.svg"
+    },
+    "_prettier": {
+      "iconPath": "./icons/prettier_dark.svg"
+    },
+    "_eslint": {
+      "iconPath": "./icons/eslint_dark.svg"
+    },
+    "_code": {
+      "iconPath": "./icons/code_dark.svg"
+    },
+    "_html": {
+      "iconPath": "./icons/html_dark.svg"
+    },
+    "_hash": {
+      "iconPath": "./icons/hash_dark.svg"
+    },
+    "_book": {
+      "iconPath": "./icons/book_dark.svg"
+    },
+    "_zip": {
+      "iconPath": "./icons/zip_dark.svg"
+    },
+    "_image": {
+      "iconPath": "./icons/image_dark.svg"
+    },
+    "_database": {
+      "iconPath": "./icons/database_dark.svg"
+    },
+    "_terminal": {
+      "iconPath": "./icons/terminal_dark.svg"
+    },
+    "_lock": {
+      "iconPath": "./icons/lock_dark.svg"
+    },
+    "_info": {
+      "iconPath": "./icons/info_dark.svg"
+    },
+    "_git": {
+      "iconPath": "./icons/git_dark.svg"
+    }
+  },
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "file": "_file",
+  "fileExtensions": {
+    "js": "_code",
+    "css": "_hash",
+    "scss": "_hash",
+    "png": "_image",
+    "svg": "_image",
+    "jpg": "_camera",
+    "jpeg": "_camera",
+    "pdf": "_prettier",
+    "graphql": "_database",
+    "sqlite": "_database",
+    "env": "_settings",
+    "envrc": "_settings",
+    "zshrc": "_terminal",
+    "bashrc": "_terminal",
+    "lock": "_lock",
+    "log": "_info",
+    "snap": "_camera"
+  },
+  "languageIds": {
+    "bat": "_terminal",
+    "powershell": "_terminal",
+    "shellscript": "_terminal",
+    "html": "_html",
+    "xml": "_html",
+    "css": "_hash",
+    "clojure": "_code",
+    "fsharp": "_code",
+    "properties": "_settings",
+    "toml": "_settings",
+    "ini": "_settings",
+    "yaml": "_settings",
+    "makefile": "_settings",
+    "nix": "_settings",
+    "json": "_code",
+    "json5": "_code",
+    "sql": "_database",
+    "markdown": "_book",
+    "typst": "_book",
+    "tex": "_book",
+    "coffeescript": "_code",
+    "c": "_code",
+    "cpp": "_code",
+    "csharp": "_code",
+    "go": "_code",
+    "groovy": "_code",
+    "java": "_code",
+    "javascriptreact": "_code",
+    "javascript": "_code",
+    "less": "_code",
+    "lua": "_code",
+    "objective-c": "_code",
+    "perl": "_code",
+    "jade": "_code",
+    "python": "_code",
+    "ruby": "_code",
+    "rust": "_code",
+    "scss": "_code",
+    "php": "_code",
+    "swift": "_code",
+    "typescript": "_code",
+    "typescriptreact": "_code"
+  },
+  "fileNames": {
+    "package.json": "_package",
+    "Cargo.toml": "_package",
+    "flake.nix": "_package",
+    "Dockerfile": "_package",
+    ".prettierrc": "_prettier",
+    ".prettierignore": "_prettier",
+    ".eslintignore": "_eslint",
+    ".eslintrc": "_eslint",
+    ".eslintrc.js": "_eslint",
+    ".eslintrc.json": "_eslint",
+    ".gitignore": "_git",
+    ".gitattributes": "_git"
+  }
+}

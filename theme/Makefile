@@ -1,7 +1,4 @@
 
-all: cssColors.css
-	cp theme.json purple-queen-hypothesis.json
-
 clean:
 	rm theme.json
 	rm names.json
@@ -18,8 +15,5 @@ colors.json: names.json unnest.jq mapNames.jq
 tokenColors.json: names.json tokenColors.json5 mapNames.jq
 	fixjson tokenColors.json5 | jq -f mapNames.jq --slurpfile names names.json > tokenColors.json
 
-names.json: names.json5
-	fixjson names.json5 > names.json
-
-cssColors.css: names.json cssColors.jq
-	jq --raw-output -f cssColors.jq names.json > cssColors.css
+names.json: ../namedColors.json5
+	fixjson ../namedColors.json5 > names.json
