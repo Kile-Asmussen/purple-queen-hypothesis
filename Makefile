@@ -1,7 +1,7 @@
-
-commit: all tidy
-
 all: package.json purple-queen-hypothesis-icons.json purple-queen-hypothesis-theme.json purple-queen-hypothesis-custom.css
+
+pre-commit: all
+post-commit: tidy
 
 clean: tidy
 	rm -f package.json
