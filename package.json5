@@ -34,7 +34,7 @@
       {
         label: "Purple Queen Hypothesis (Theme)",
         uiTHeme: "vs-dark",
-        path: "purple-queen-color-theme.json"
+        path: "./themes/purple-queen-hypothesis.json"
       }
     ],
     iconThemes: [

@@ -1,4 +1,5 @@
-all: theme.json
+
+all: cssColors.css
 	cp theme.json purple-queen-hypothesis.json
 
 clean:
@@ -7,7 +8,6 @@ clean:
 	rm colors.json
 	rm tokenColors.json
 	rm cssColors.css
-
 
 theme.json: names.json colors.json tokenColors.json theme.json5 theme.jq
 	fixjson theme.json5 | jq -f theme.jq --slurpfile colors colors.json --slurpfile tokenColors tokenColors.json > theme.json
