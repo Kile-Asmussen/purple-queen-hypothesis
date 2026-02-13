@@ -1,3 +1,2 @@
 #! /usr/bin/env bash
-echo Making commit target
 make commit
