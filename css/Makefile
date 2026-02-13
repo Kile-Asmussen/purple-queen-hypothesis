@@ -1,7 +1,8 @@
-all: extras.css
+all: extras.out.css
 
-extras.css: palette.css effects.css
-	cat palette.css effects.css > extras.css
+clean:
+	rm -f extras.out.css
 
-palette.css: ../palette.json5 palette.jq
-	fixjson ../palette.json5 | jq -f palette.jq --raw-output > palette.css
+extras.out.css: palette.jq effects.css ../palette.json5
+	fixjson ../palette.json5 | jq -f palette.jq --raw-output | cat - effects.css > extras.out.css
+
