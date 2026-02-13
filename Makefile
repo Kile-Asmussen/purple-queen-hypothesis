@@ -20,10 +20,10 @@ purple-queen-hypothesis-icons.json: ./icons/pack.json
 ./icons/pack.json:
 	make -C ./icons/ all
 
-purple-queen-hypothesis-custom.css: ./css/extras.css
-	cp ./css/extras.css purple-queen-hypothesis-custom.css
+purple-queen-hypothesis-custom.css: ./css/extras.out.css
+	cp ./css/extras.out.css purple-queen-hypothesis-custom.css
 	
-./css/extras.css:
+./css/extras.out.css:
 	make -C ./css/ all
 
 purple-queen-hypothesis-theme.json: ./theme/theme.json

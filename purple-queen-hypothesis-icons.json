@@ -1,0 +1,145 @@
+{
+  "hidesExplorerArrows": true,
+  "folder": "folder",
+  "folderExpanded": "folder_open",
+  "file": "file",
+  "fileExtensions": {
+    "js": "code",
+    "css": "hash",
+    "scss": "hash",
+    "png": "image",
+    "svg": "image",
+    "jpg": "camera",
+    "jpeg": "camera",
+    "pdf": "prettier",
+    "graphql": "database",
+    "sqlite": "database",
+    "env": "settings",
+    "envrc": "settings",
+    "zshrc": "terminal",
+    "bashrc": "terminal",
+    "lock": "lock",
+    "log": "info",
+    "snap": "camera"
+  },
+  "languageIds": {
+    "bat": "terminal",
+    "powershell": "terminal",
+    "shellscript": "terminal",
+    "html": "html",
+    "xml": "html",
+    "css": "hash",
+    "clojure": "code",
+    "fsharp": "code",
+    "properties": "settings",
+    "toml": "settings",
+    "ini": "settings",
+    "yaml": "settings",
+    "makefile": "settings",
+    "nix": "settings",
+    "json": "code",
+    "json5": "code",
+    "sql": "database",
+    "markdown": "book",
+    "typst": "book",
+    "tex": "book",
+    "coffeescript": "code",
+    "c": "code",
+    "cpp": "code",
+    "csharp": "code",
+    "go": "code",
+    "groovy": "code",
+    "java": "code",
+    "javascriptreact": "code",
+    "javascript": "code",
+    "less": "code",
+    "lua": "code",
+    "objective-c": "code",
+    "perl": "code",
+    "jade": "code",
+    "python": "code",
+    "ruby": "code",
+    "rust": "code",
+    "scss": "code",
+    "php": "code",
+    "swift": "code",
+    "typescript": "code",
+    "typescriptreact": "code"
+  },
+  "fileNames": {
+    "package.json": "package",
+    "Cargo.toml": "package",
+    "flake.nix": "package",
+    "Dockerfile": "package",
+    ".prettierrc": "prettier",
+    ".prettierignore": "prettier",
+    ".eslintignore": "eslint",
+    ".eslintrc": "eslint",
+    ".eslintrc.js": "eslint",
+    ".eslintrc.json": "eslint",
+    ".gitignore": "git",
+    ".gitattributes": "git"
+  },
+  "iconDefinitions": {
+    "anchor": {
+      "iconPath": "./icons/anchor.svg"
+    },
+    "archive": {
+      "iconPath": "./icons/archive.svg"
+    },
+    "book": {
+      "iconPath": "./icons/book.svg"
+    },
+    "camera": {
+      "iconPath": "./icons/camera.svg"
+    },
+    "code": {
+      "iconPath": "./icons/code.svg"
+    },
+    "database": {
+      "iconPath": "./icons/database.svg"
+    },
+    "eslint": {
+      "iconPath": "./icons/eslint.svg"
+    },
+    "file": {
+      "iconPath": "./icons/file.svg"
+    },
+    "folder-open": {
+      "iconPath": "./icons/folder-open.svg"
+    },
+    "folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "git": {
+      "iconPath": "./icons/git.svg"
+    },
+    "hash": {
+      "iconPath": "./icons/hash.svg"
+    },
+    "html": {
+      "iconPath": "./icons/html.svg"
+    },
+    "image": {
+      "iconPath": "./icons/image.svg"
+    },
+    "info": {
+      "iconPath": "./icons/info.svg"
+    },
+    "lock": {
+      "iconPath": "./icons/lock.svg"
+    },
+    "package": {
+      "iconPath": "./icons/package.svg"
+    },
+    "prettier": {
+      "iconPath": "./icons/prettier.svg"
+    },
+    "settings": {
+      "iconPath": "./icons/settings.svg"
+    },
+    "terminal": {
+      "iconPath": "./icons/terminal.svg"
+    }
+  }
+}
