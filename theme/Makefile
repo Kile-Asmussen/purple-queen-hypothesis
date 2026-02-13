@@ -1,10 +1,10 @@
 all: theme.json
 
 clean:
-	rm theme.json
-	rm palette.json
-	rm colors.json
-	rm tokenColors.json
+	rm -f theme.json
+	rm -f palette.json
+	rm -f colors.json
+	rm -f tokenColors.json
 
 theme.json: colors.json tokenColors.json theme.json5 theme.jq
 	fixjson theme.json5 | jq -f theme.jq --slurpfile colors colors.json --slurpfile tokenColors tokenColors.json > theme.json
