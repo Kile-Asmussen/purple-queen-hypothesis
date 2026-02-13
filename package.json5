@@ -16,7 +16,7 @@
     email: "kile.asmussen@gmai.com",
   },
   repository: {
-    url: ""
+    url: "https://github.com/Kile-Asmussen/purple-queen-hypothesis"
   },
   engines: {
     vscode: "^1"
@@ -34,14 +34,14 @@
       {
         label: "Purple Queen Hypothesis (Theme)",
         uiTheme: "vs-dark",
-        path: "./themes/purple-queen-hypothesis.json"
+        path: "./purple-queen-hypothesis-theme.json"
       }
     ],
     iconThemes: [
       {
         id: ""
         label: "Purple Queen Hypothesis (Icons)"
-        path: "purple-queen-icon-theme.json"
+        path: "./purple-queen-hypothesis-icons.json"
       }
     ]
   }
