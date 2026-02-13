@@ -1,12 +1,15 @@
 
+commit: all tidy
+
 all: package.json purple-queen-hypothesis-icons.json purple-queen-hypothesis-theme.json purple-queen-hypothesis-custom.css
 
-clean:
+clean: tidy
 	rm -f package.json
 	rm -f purple-queen-hypothesis-icons.json
 	rm -f purple-queen-hypothesis-theme.json
 	rm -f purple-queen-hypothesis-custom.css
 
+tidy:
 	make -C ./theme/ clean
 	make -C ./icons/ clean
 	make -C ./css/ clean
