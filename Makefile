@@ -1,6 +1,11 @@
 all: package.json purple-queen-hypothesis-icons.json purple-queen-hypothesis-theme.json purple-queen-hypothesis-custom.css
 
 pre-commit: all
+	git add package.json
+	git add purple-queen-hypothesis-icons.json
+	git add purple-queen-hypothesis-custom.css
+	git add purple-queen-hypothesis-theme.json
+
 post-commit: tidy
 
 clean: tidy
