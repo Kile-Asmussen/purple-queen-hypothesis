@@ -278,9 +278,229 @@
   },
 
   // Editor Groups & Tabs
+  editorGroup: {
+    border: "",
+    dropBackground: "",
+    emptyBackground: "",
+    focusedEmptyBorder: "",
+    dropIntoPromptForeground: "",
+    dropIntoPromptBackground: "",
+    dropIntoPromptBorder: "",
+  },
+  editorGroupHeader: {
+    noTabsBackground: "",
+    tabsBackground: "",
+    tabsBorder: "",
+    border: "",
+  },
+  tab: {
+    activeBackground: "",
+    unfocusedActiveBackground: "",
+    activeForeground: "",
+    border: "",
+    activeBorder: "",
+    selectedBorderTop: "",
+    selectedBackground: "",
+    selectedForeground: "",
+    dragAndDropBorder: "",
+    unfocusedActiveBorder: "",
+    activeBorderTop: "",
+    unfocusedActiveBorderTop: "",
+    lastPinnedBorder: "",
+    inactiveBackground: "",
+    unfocusedInactiveBackground: "",
+    inactiveForeground: "",
+    unfocusedActiveForeground: "",
+    unfocusedInactiveForeground: "",
+    hoverBackground: "",
+    unfocusedHoverBackground: "",
+    hoverForeground: "",
+    unfocusedHoverForeground: "",
+    hoverBorder: "",
+    unfocusedHoverBorder: "",
+    activeModifiedBorder: "",
+    inactiveModifiedBorder: "",
+    unfocusedActiveModifiedBorder: "",
+    unfocusedInactiveModifiedBorder: "",
+  },
+  editorPane: {
+    background: "",
+  },
+  sideBySideEditor: {
+    horizontalBorder: "",
+    verticalBorder: "",
+  },
 
+  // Editor colors
 
+  editor: {
+    background
+    foreground
+    placeholder: {
+      foreground
+    }
+    compositionBorder
+    selectionBackground
+    selectionForeground
+    inactiveSelectionBackground
+    selectionHighlightBackground
+    selectionHighlightBorder
+    wordHighlightBackground
+    wordHighlightBorder
+    wordHighlightStrongBackground
+    wordHighlightStrongBorder
+    wordHighlightTextBackground
+    wordHighlightTextBorder
+    findMatchBackground
+    findMatchForeground
+    findMatchHighlightForeground
+    findMatchHighlightBackground
+    findRangeHighlightBackground
+    findMatchBorder
+    findMatchHighlightBorder
+    findRangeHighlightBorder
+    hoverHighlightBackground
+    lineHighlightBackground
+    inactiveLineHighlightBackground
+    lineHighlightBorder
+    rangeHighlightBackground
+    rangeHighlightBorder
+    symbolHighlightBackground
+    symbolHighlightBorder
+    linkedEditingBackground
+    foldBackground
+    foldPlaceholderForeground
+  },
+  editorBracketHighlight: {
+    foreground1
+    foreground2
+    foreground3
+    foreground4
+    foreground5
+    foreground6
+    unexpectedBracket: {
+      foreground
+    }
+  }
+  editorBracketPairGuide: {
+    activeBackground1
+    activeBackground2
+    activeBackground3
+    activeBackground4
+    activeBackground5
+    activeBackground6
+    background1
+    background2
+    background3
+    background4
+    background5
+    background6
+  }
+  editorCodeLens: {
+    foreground
+  },
+  editorCursor: {
+    background
+    foreground
+  },
+  editorError: {
 
+  }.
+  editorInfo: {
+
+  }.
+    editorWarning: {
+
+  }.
+    editorError: {
+
+  }.
+  editorIndentGuide: {
+    background
+    background1
+    background2
+    background3
+    background4
+    background5
+    background6
+    activeBackground
+    activeBackground1
+    activeBackground2
+    activeBackground3
+    activeBackground4
+    activeBackground5
+    activeBackground6
+  },
+  editorLightBulb: {
+    foreground
+  },
+  editorLightBulbAutoFix: {
+    foreground
+  },
+  editorLightBulbAi: {
+    foreground
+  },
+  editorLineNumber: {
+    foreground
+    activeForeground
+    dimmedForeground
+  },
+  editorInlayHint: {
+    background
+    foreground
+    typeForeground
+    typeBackground
+    parameterForeground
+    parameterBackground
+  },
+  editorOverviewRuler: {
+    background
+    border
+    findMatchForeground
+    rangeHighlightForeground
+    selectionHighlightForeground
+    wordHighlightForeground
+    wordHighlightStrongForeground
+    wordHighlightTextForeground
+    modifiedForeground
+    addedForeground
+    deletedForeground
+    errorForeground
+    warningForeground
+    infoForeground
+    bracketMatchForeground
+    inlineChatInserted
+    inlineChatRemoved
+    commentDraftForeground
+  }
+  editorMultiCursor: {
+    primary: {
+      foreground
+      background
+    },
+    secondary: {
+      foreground
+      background
+    }
+  },
+  editorRuler: {
+    foreground
+  },
+  editorUnicodeHighlight: {
+    border
+    background
+  },
+  editorWhitespace: {
+    foreground
+  },
+  search: {
+    resultsInfoForeground
+  },
+  searchEditor: {
+    findMatchBackground
+    findMatchBorder
+    textInputBorder
+  },
 
 
 
